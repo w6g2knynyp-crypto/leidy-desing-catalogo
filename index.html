@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff7fb"><title>Leidy Design | Catálogo</title>
+<style>
+:root{--bg:#fff8fc;--pink:#f5d8e8;--lilac:#dbc8ee;--purple:#71369c;--ink:#34233f;--line:#eaddea;--green:#12a84f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:linear-gradient(#fffafd,#f9edf5);color:var(--ink)}
+.app{max-width:520px;margin:auto;min-height:100vh}header{position:sticky;top:0;z-index:10;background:#fff9fceF;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 18px}.brand{font:italic 27px Georgia,serif;color:var(--purple)}.brand small{display:block;font:700 9px system-ui;letter-spacing:4px;text-align:center}
+.icon{color:var(--purple);text-decoration:none;font-size:22px}.hero{text-align:center;padding:35px 20px;background:linear-gradient(145deg,#fae6f0,#f5dce9 60%,#dfcef0)}
+.hero h1{font:italic 43px Georgia,serif;color:var(--purple);margin:5px}.hero p{font:600 20px Georgia,serif;color:#754396;margin:24px auto;max-width:330px}.cta,.wa{display:block;text-align:center;border-radius:999px;color:white;text-decoration:none;font-weight:800}
+.cta{width:max-content;margin:25px auto 0;padding:15px 34px;background:linear-gradient(90deg,#71369c,#914fba)}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px;font-size:12px;font-weight:700}.features b{display:grid;place-items:center;width:48px;height:48px;margin:auto auto 7px;border-radius:50%;background:#f7d5e8;color:var(--purple);font-size:22px}
+section{padding:25px 16px}.title{text-align:center;color:#4e245f;margin:0 0 5px}.sub{text-align:center;color:#7d6e82;font-size:14px;margin:0 0 18px}
+.cats,.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.cat{border:0;border-radius:18px;background:linear-gradient(145deg,#fff,#f7e0ec);min-height:105px;color:#42254f;font-weight:800;font-size:15px}.cat b{display:block;font-size:28px;color:var(--purple)}
+.filters{display:flex;gap:8px;overflow:auto;padding-bottom:14px}.filter{white-space:nowrap;border:1px solid var(--line);background:white;border-radius:999px;padding:9px 14px;color:var(--purple);font-weight:750}.filter.on{background:var(--purple);color:white}
+.card{background:white;border:1px solid var(--line);border-radius:17px;overflow:hidden;position:relative;box-shadow:0 5px 18px #60336b10}.photo{aspect-ratio:1/1.05;background:linear-gradient(145deg,#f6e9ef,#e8e0eb);display:grid;place-items:center;text-align:center;color:#857487;font-size:12px;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;top:9px;left:8px;background:#efd0f2;color:#73399a;border-radius:10px;padding:5px 8px;font-size:10px;font-weight:800}.body{padding:10px}.body h3{font-size:14px;margin:0 0 3px}.price{font-weight:900}.sizes{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0}.size{font-size:9px;background:#f7d8e9;border-radius:8px;padding:5px 6px;font-weight:800}.size.no{text-decoration:line-through;background:#eee9ef;color:#99909b}.wa{background:var(--purple);padding:9px 6px;font-size:10px}
+.info{background:white;border:1px solid var(--line);border-radius:20px;padding:18px}.info p{margin:14px 0}.bigwa{background:var(--green);padding:15px;font-size:15px;margin-top:20px}.bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);display:grid;grid-template-columns:repeat(4,1fr);background:#fff9fcf2;border-top:1px solid var(--line);z-index:20;padding:8px 4px max(8px,env(safe-area-inset-bottom));backdrop-filter:blur(12px)}
+.bottom button{border:0;background:transparent;color:#603273;font-size:11px;font-weight:750}.bottom b{display:block;font-size:19px}footer{text-align:center;padding:30px 20px 95px;color:#765183}.empty{grid-column:1/-1;text-align:center;color:#7d6e82;padding:30px}
+</style></head><body><div class="app">
+<header><div class="top"><span class="icon">♡</span><div class="brand">Leidy Lo♡<small>DESIGN</small></div><a class="icon" href="https://wa.me/573112231733">◉</a></div></header>
+<main><section class="hero" id="inicio"><h1>Leidy Lo♡</h1><small>D E S I G N</small><p>Ropa que te hace sentir tú, todos los días</p>
+<div class="features"><div><b>♡</b>Diseños<br>cómodos</div><div><b>♢</b>Telas de<br>excelente calidad</div><div><b>♧</b>Para toda<br>ocasión</div></div><a class="cta" href="#coleccion">Ver colección ›</a></section>
+<section id="categorias"><h2 class="title">Nueva colección ♡</h2><p class="sub">Comodidad, estilo y versatilidad</p><div class="cats">
+<button class="cat" onclick="filtrar('Shorts')"><b>♡</b>Shorts ›</button><button class="cat" onclick="filtrar('Faldas Short')"><b>♧</b>Faldas Short ›</button>
+<button class="cat" onclick="filtrar('Blusas')"><b>♢</b>Blusas ›</button><button class="cat" onclick="filtrar('Todos')"><b>♥</b>Novedades ›</button></div></section>
+<section id="coleccion"><h2 class="title">Colección ♥</h2><p class="sub">Elige tu favorita y consulta disponibilidad</p><div class="filters" id="filters"></div><div class="grid" id="products"></div></section>
+<section id="info"><h2 class="title">Información</h2><div class="info"><p>🚚 <b>Ventas y entregas</b><br>Consulta por WhatsApp.</p><p>💳 <b>Pagos</b><br>Consulta los medios disponibles por WhatsApp.</p><p>♡ <b>Atención personalizada</b><br>Consulta colores, tallas y disponibilidad.</p><a class="wa bigwa" href="https://wa.me/573112231733?text=Hola%2C%20quiero%20consultar%20el%20cat%C3%A1logo%20de%20Leidy%20Design">◉ Pedir por WhatsApp</a></div></section></main>
+<footer><div class="brand">Leidy Lo♡<small>DESIGN</small></div><p>Moda femenina ♥</p></footer></div>
+<nav class="bottom"><button onclick="go('inicio')"><b>⌂</b>Inicio</button><button onclick="go('categorias')"><b>▦</b>Categorías</button><button onclick="go('coleccion')"><b>♡</b>Colección</button><button onclick="go('info')"><b>◉</b>Contacto</button></nav>
+<script src="productos.js"></script><script>
+const WA="573112231733", cats=["Todos","Shorts","Faldas Short","Blusas"];let actual="Todos";
+function go(x){document.getElementById(x).scrollIntoView({behavior:"smooth"})}
+function filtrar(x){actual=x;render();go("coleccion")}
+function render(){document.getElementById("filters").innerHTML=cats.map(x=>`<button class="filter ${x===actual?'on':''}" onclick="filtrar('${x}')">${x}</button>`).join("");
+let list=PRODUCTOS.filter(p=>actual==="Todos"||p.categoria===actual),el=document.getElementById("products");if(!list.length){el.innerHTML='<div class="empty">Todavía no hay prendas aquí ♡</div>';return}
+el.innerHTML=list.map(p=>{let msg=encodeURIComponent(`Hola, estoy interesada en ${p.nombre}. ¿Qué colores y tallas tienen disponibles?`);return `<article class="card">${p.nuevo?'<span class="badge">Nuevo</span>':''}<div class="photo">${p.foto?`<img src="${p.foto}" alt="${p.nombre}">`:'Agrega aquí la foto<br>de esta prenda ♡'}</div><div class="body"><h3>${p.nombre}</h3><div class="price">${p.precio}</div><div class="sizes">${Object.entries(p.tallas).map(([t,d])=>`<span class="size ${d?'':'no'}">${t}${d?'':' · agotada'}</span>`).join("")}</div><a class="wa" href="https://wa.me/${WA}?text=${msg}">◉ Consultar por WhatsApp</a></div></article>`}).join("")}render();
+</script></body></html>
