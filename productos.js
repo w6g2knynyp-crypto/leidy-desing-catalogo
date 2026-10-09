@@ -42,5 +42,13 @@ const PRODUCTOS = [
     nuevo: true,
     colores: COLORES,
     tallas: {}
-  }
+  },
+  {
+  nombre: "Short Johana",
+  precio: "$70.000",
+  categoria: "Shorts",
+  foto: "",
+  nuevo: true,
+  tallas: {}
+}
 ];
