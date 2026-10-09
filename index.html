@@ -32,7 +32,7 @@ section{padding:25px 16px}.title{text-align:center;color:#4e245f;margin:0 0 5px}
 <section id="info"><h2 class="title">Información</h2><div class="info"><p>🚚 <b>Ventas y entregas</b><br>Consulta por WhatsApp.</p><p>💳 <b>Pagos</b><br>Consulta los medios disponibles por WhatsApp.</p><p>♡ <b>Atención personalizada</b><br>Consulta colores, tallas y disponibilidad.</p><a class="wa bigwa" href="https://wa.me/573112231733?text=Hola%2C%20quiero%20consultar%20el%20cat%C3%A1logo%20de%20Leidy%20Design">◉ Pedir por WhatsApp</a></div></section></main>
 <footer><div class="brand">Leidy Lo♡<small>DESIGN</small></div><p>Moda femenina ♥</p></footer></div>
 <nav class="bottom"><button onclick="go('inicio')"><b>⌂</b>Inicio</button><button onclick="go('categorias')"><b>▦</b>Categorías</button><button onclick="go('coleccion')"><b>♡</b>Colección</button><button onclick="go('info')"><b>◉</b>Contacto</button></nav>
-<script src="productos.js"></script><script>
+<script src="productos.js?v=2"></script><script>
 const WA="573112231733", cats=["Todos","Shorts","Blusas"];let actual="Todos";
 function go(x){document.getElementById(x).scrollIntoView({behavior:"smooth"})}
 function filtrar(x){actual=x;render();go("coleccion")}
