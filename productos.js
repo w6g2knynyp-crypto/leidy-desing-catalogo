@@ -14,7 +14,14 @@ const COLORES = [
   { nombre: "Rosa", hex: "#DCA0B5" },
   { nombre: "Verde oliva", hex: "#647C4D" }
 ];
-
+const COLORES_JOHANA = [
+  { nombre: "Azul rey", hex: "#2452A0" },
+  { nombre: "Verde oliva", hex: "#667C39" },
+  { nombre: "Beige", hex: "#BE9775" },
+  { nombre: "Rojo", hex: "#C80929" },
+  { nombre: "Vino tinto", hex: "#651E35" },
+  { nombre: "Lila", hex: "#BFA0D5" }
+];
 const PRODUCTOS = [
   {
     nombre: "Short Sofía",
@@ -49,6 +56,7 @@ const PRODUCTOS = [
   categoria: "Shorts",
   foto: "",
   nuevo: true,
+  colores: COLORES_JOHANA,
   tallas: {}
 }
 ];
