@@ -21,7 +21,7 @@ const COLORES_JOHANA = [
   { nombre: "Rojo", hex: "#C80929" },
   { nombre: "Vino tinto", hex: "#651E35" },
   { nombre: "Lila", hex: "#BFA0D5" }
-  
+ ]; 
 const COLORES_TOPS = [
   { nombre: "Blanco perla", hex: "#F5F0E8" },
   { nombre: "Café", hex: "#75483B" },
