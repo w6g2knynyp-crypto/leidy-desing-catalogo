@@ -29,7 +29,7 @@ section{padding:25px 16px}.title{text-align:center;color:#4e245f;margin:0 0 5px}
 <footer><div class="brand">Leidy Lo♡<small>DESIGN</small></div><p>Moda femenina ♥</p></footer></div>
 <nav class="bottom"><button onclick="go('inicio')"><b>⌂</b>Inicio</button><button onclick="go('categorias')"><b>▦</b>Categorías</button><button onclick="go('coleccion')"><b>♡</b>Colección</button><button onclick="go('info')"><b>◉</b>Contacto</button></nav>
 <script src="productos.js"></script><script>
-const WA="573112231733", cats=["Todos","Shorts","Faldas Short","Blusas"];let actual="Todos";
+const WA="573112231733", cats=["Todos","Shorts","Blusas"];let actual="Todos";
 function go(x){document.getElementById(x).scrollIntoView({behavior:"smooth"})}
 function filtrar(x){actual=x;render();go("coleccion")}
 function render(){document.getElementById("filters").innerHTML=cats.map(x=>`<button class="filter ${x===actual?'on':''}" onclick="filtrar('${x}')">${x}</button>`).join("");
