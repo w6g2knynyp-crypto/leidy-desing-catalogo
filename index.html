@@ -42,8 +42,15 @@ const FOTOS_COLORES={
   "Café":"dalia-cafe.jpg",
   "Negro":"dalia-negro.jpg",
   "Rosado":"dalia-rosado.jpg"
- }
+ },
+  "Top Margarita": {
+    "Blanco perla": "margarita-blanco-perla.jpg",
+    "Café": "margarita-cafe.jpg",
+    "Negro": "margarita-negro.jpg",
+    "Rosado": "margarita-rosado.jpg"
+  }
 };
+ 
 let productoAbierto=-1,colorElegido=0;
 function limpiar(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function go(x){cerrarDetalle();document.getElementById(x).scrollIntoView({behavior:"smooth"})}
