@@ -34,9 +34,9 @@ const PRODUCTOS = [
     nombre: "Short Sofía",
     precio: "$80.000",
     categoria: "Shorts",
-    foto: "",
+    foto: "sofia_vino_tinto.jpg",
     nuevo: true,
-    colores: COLORES,
+    colores: [COLORES[5], COLORES[0], COLORES[1], COLORES[2], COLORES[3], COLORES[4], COLORES[6], COLORES[7], COLORES[8]],
     tallas: {}
   },
   {
