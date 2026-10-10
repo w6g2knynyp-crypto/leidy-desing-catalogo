@@ -88,7 +88,7 @@ const PRODUCTOS = [
   nombre: "Top Jazmín",
   precio: "$50.000",
   categoria: "Blusas",
-  foto: "",
+  foto: "jazmin-rosado.jpg",
   nuevo: true,
   colores: COLORES_TOPS,
   tallas: { "Única": true }
