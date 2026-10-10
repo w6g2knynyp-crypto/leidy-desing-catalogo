@@ -70,7 +70,7 @@ const PRODUCTOS = [
   nombre: "Top Dalia",
   precio: "",
   categoria: "Blusas",
-  foto: "",
+  foto: "dalia-blanco-perla.jpg",
   nuevo: true,
   colores: COLORES_TOPS,
   tallas: { "Única": true }
