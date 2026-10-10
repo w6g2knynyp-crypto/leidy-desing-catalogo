@@ -68,7 +68,7 @@ const PRODUCTOS = [
 },
 {
   nombre: "Top Dalia",
-  precio: "",
+  precio: "$50.000",
   categoria: "Blusas",
   foto: "dalia-blanco-perla.jpg",
   nuevo: true,
@@ -77,16 +77,16 @@ const PRODUCTOS = [
 },
 {
   nombre: "Top Margarita",
-  precio: "",
+  precio: "$55.000",
   categoria: "Blusas",
-  foto: "",
+  foto: "margarita-negro.jpg",
   nuevo: true,
   colores: COLORES_TOPS,
   tallas: { "Única": true }
 },
 {
   nombre: "Top Jazmín",
-  precio: "",
+  precio: "$50.000",
   categoria: "Blusas",
   foto: "",
   nuevo: true,
