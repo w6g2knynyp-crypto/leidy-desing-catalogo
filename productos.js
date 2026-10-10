@@ -72,7 +72,7 @@ const PRODUCTOS = [
   categoria: "Blusas",
   foto: "dalia-blanco-perla.jpg",
   nuevo: true,
-  colores: COLORES_TOPS,
+  colores: colores: [COLORES_TOPS[3], COLORES_TOPS[0], COLORES_TOPS[1], COLORES_TOPS[2]],
   tallas: { "Única": true }
 },
 {
@@ -81,7 +81,7 @@ const PRODUCTOS = [
   categoria: "Blusas",
   foto: "margarita-negro.jpg",
   nuevo: true,
-  colores: COLORES_TOPS,
+  colores: colores: [COLORES_TOPS[2], COLORES_TOPS[0], COLORES_TOPS[1], COLORES_TOPS[3]],
   tallas: { "Única": true }
 },
 {
