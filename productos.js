@@ -43,7 +43,7 @@ const PRODUCTOS = [
     nombre: "Short Adara",
     precio: "$80.000",
     categoria: "Shorts",
-    foto: "",
+    foto: "adara-lila.jpg",
     nuevo: true,
     colores: COLORES,
     tallas: {}
