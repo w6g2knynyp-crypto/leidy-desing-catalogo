@@ -57,6 +57,7 @@ const PRODUCTOS = [
     colores: COLORES,
     tallas: {}
   },
+  /*
   {
   nombre: "Short Johana",
   precio: "$70.000",
@@ -66,6 +67,7 @@ const PRODUCTOS = [
   colores: COLORES_JOHANA,
   tallas: {}
 },
+*/
 {
   nombre: "Top Dalia",
   precio: "$50.000",
