@@ -52,7 +52,7 @@ const PRODUCTOS = [
     nombre: "Short Mariana",
     precio: "$80.000",
     categoria: "Shorts",
-    foto: "",
+    foto: "mariana-verde-oliva.jpg",
     nuevo: true,
     colores: COLORES,
     tallas: {}
