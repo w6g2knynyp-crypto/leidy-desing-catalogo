@@ -45,7 +45,7 @@ const PRODUCTOS = [
     categoria: "Shorts",
     foto: "adara-lila.jpg",
     nuevo: true,
-    colores: COLORES,
+    colores: [COLORES[2], COLORES[0], COLORES[1], COLORES[3], COLORES[4], COLORES[5], COLORES[6], COLORES[7], COLORES[8]],
     tallas: {}
   },
   {
